@@ -1,6 +1,41 @@
 
 let fruta = [
-    "abacaxi", "maca", "banana", "laranja" , "melancia" , "abacaxi" , "Zimbro" , "abacate" , "Lichia"
+    {
+        "nome" : "abacaxi" ,
+        "indice" : 1
+    },
+    {
+        "nome" : "maca" ,
+        "indice" : 2
+    },
+    {
+        "nome" : "banana" ,
+        "indice" : 3
+    },
+    {
+        "nome" : "laranja" ,
+        "indice" : 4
+    },
+    {
+        "nome" : "uva" ,
+        "indice" : 5
+    },
+    {
+        "nome" : "melancia" ,
+        "indice" : 6
+    },
+    {
+        "nome" : "pera" ,
+        "indice" : 7
+    },
+    {
+        "nome" : "manga" ,
+        "indice" : 8
+    },
+    {
+        "nome" : "kiwi" ,
+        "indice" : 9
+    }
 ];
 
 console.log("------------------------------------------------------------------------------");
@@ -15,10 +50,27 @@ console.log("-------------------------------------------------------------------
 let ObjFrutas = fruta.map((fruta , ind , arr) => {
     return {
         "nome" : fruta ,
-        "indice" : ind++ ,
+        "indice" : ind+1 ,
     }
 });
 
 console.log(ObjFrutas)
 
 console.log("------------------------------------------------------------------------------");
+
+let Preco = [
+    {"id" :1 , "preco" : 10 },   
+    {"id" : 2 ,"preco" : 20 },
+    {"id" : 3 ,"preco" : 30 },
+    {"id" : 4 ,"preco" : 40 },
+    {"id" : 5 ,"preco" : 50 },
+    {"id" : 6 ,"preco" : 60 },
+    {"id" : 7 ,"preco" : 70 },
+    {"id" : 8 , "preco" : 80 },
+    {"id" : 9 , "preco" : 90},
+];
+
+let frutamaisPreco = Preco.map((ItemDoArray) => {
+    //Junte as duas arrays e retorne uma nova array com o nome e o valor de cada fruta
+    
+});

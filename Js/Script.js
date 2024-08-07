@@ -58,7 +58,7 @@ console.log(ObjFrutas)
 
 console.log("------------------------------------------------------------------------------");
 
-let Preco = [
+let precos = [
     {"id" :1 , "preco" : 10 },   
     {"id" : 2 ,"preco" : 20 },
     {"id" : 3 ,"preco" : 30 },
@@ -70,7 +70,13 @@ let Preco = [
     {"id" : 9 , "preco" : 90},
 ];
 
-let frutamaisPreco = Preco.map((ItemDoArray) => {
+let frutamaisPreco = fruta.map((fruta) => {
     //Junte as duas arrays e retorne uma nova array com o nome e o valor de cada fruta
-    
+    let preco = precos.find((preco) => preco.id === fruta.indice);
+    return {...fruta , preco : preco ? preco.preco : null};
 });
+
+console.log(frutamaisPreco)
+
+console.log("------------------------------------------------------------------------------");
+

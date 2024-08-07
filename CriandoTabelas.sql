@@ -1,5 +1,0 @@
-CREATE TABLE ARRAY(
-    id INT PRIMARY KEY,
-    name VARCHAR(255),
-    array ARRAY
-);

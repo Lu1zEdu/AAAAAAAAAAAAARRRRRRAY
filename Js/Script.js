@@ -153,4 +153,4 @@ novoArray.forEach((item) => {
 console.log("------------------------------------------------------------------------------");
 
 const FRUTASABAIXO = frutamaisPreco.filter((fruta) => fruta.preco < 10);
-console.log(FRUTASABAIXO)
+console.log(FRUTASABAIXO);

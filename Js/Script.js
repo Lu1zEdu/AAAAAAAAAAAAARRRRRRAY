@@ -144,3 +144,4 @@ const soma = numero.reduce(function(total , item){
 console.log(soma)
 
 console.log("------------------------------------------------------------------------------");
+

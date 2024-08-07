@@ -134,3 +134,13 @@ let numero = [1 ,2,3,4,5,6,7,8,9,10];
 numero.forEach((item) => {
     console.log(item)
 });
+
+console.log("------------------------------------------------------------------------------");
+
+const soma = numero.reduce(function(total , item){
+    return total + item;
+} , 0);
+
+console.log(soma)
+
+console.log("------------------------------------------------------------------------------");

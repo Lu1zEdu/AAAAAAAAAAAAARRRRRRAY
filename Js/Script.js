@@ -80,3 +80,12 @@ console.log(frutamaisPreco)
 
 console.log("------------------------------------------------------------------------------");
 
+const numeros = [ 1 , 2 , 3 , 4 , 5];
+console.log(numeros)
+const TALVEZPASSAR = numeros.filter(item => item > 1);
+console.log(TALVEZPASSAR);
+
+const pares =numeros.filter(item => item % 2 === 0);
+console.log(pares)
+
+console.log("------------------------------------------------------------------------------");

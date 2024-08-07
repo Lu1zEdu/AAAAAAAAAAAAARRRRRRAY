@@ -89,3 +89,21 @@ const pares =numeros.filter(item => item % 2 === 0);
 console.log(pares)
 
 console.log("------------------------------------------------------------------------------");
+
+let alunos = [
+    {"nome" : "joao" , "Senha" : "123" },
+    {"nome" : "maria" , "Senha" : "456" },
+    {"nome" : "pedro" , "Senha" : "789" },
+    {"nome" : "lucas" , "Senha" : "321" }
+]
+
+const logado = alunos.filter((aluno) => {
+    return aluno.Senha === "123"
+});
+
+console.log("------------------------------------------------------------------------------");
+
+let numero = [1 ,2,3,4,5,6,7,8,9,10];
+numero.forEach((item) => {
+    console.log(item)
+});
